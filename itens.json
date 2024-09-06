@@ -62,7 +62,7 @@
                                                   "operacao": "scanner-lateral-fulano",
                                                   "setup": 300,
                                                   "quantidade": 5,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -136,7 +136,7 @@
                                                   "operacao": "scanner-lateral-fulano",
                                                   "setup": 300,
                                                   "quantidade": 5,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -210,7 +210,7 @@
                                                   "operacao": "scanner-cabeceira-fulano",
                                                   "setup": 300,
                                                   "quantidade": 12,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -284,7 +284,7 @@
                                                   "operacao": "scanner-peseira-fulano",
                                                   "setup": 300,
                                                   "quantidade": 7,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -370,7 +370,7 @@
                                                   "operacao": "scanner-lateral-beltrano",
                                                   "setup": 300,
                                                   "quantidade": 5,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -444,7 +444,7 @@
                                                   "operacao": "scanner-lateral-beltrano",
                                                   "setup": 300,
                                                   "quantidade": 5,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -518,7 +518,7 @@
                                                   "operacao": "scanner-cabeceira-beltrano",
                                                   "setup": 300,
                                                   "quantidade": 12,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -592,7 +592,7 @@
                                                   "operacao": "scanner-peseira-beltrano",
                                                   "setup": 300,
                                                   "quantidade": 7,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -678,7 +678,7 @@
                                                   "operacao": "scanner-lateral-siclano",
                                                   "setup": 300,
                                                   "quantidade": 5,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -752,7 +752,7 @@
                                                   "operacao": "scanner-lateral-siclano",
                                                   "setup": 300,
                                                   "quantidade": 5,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -826,7 +826,7 @@
                                                   "operacao": "scanner-cabeceira-siclano",
                                                   "setup": 300,
                                                   "quantidade": 12,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
@@ -900,7 +900,7 @@
                                                   "operacao": "scanner-peseira-siclano",
                                                   "setup": 300,
                                                   "quantidade": 7,
-                                                  "componentes": []
+                                                  "componentes": null
                                                 }
                                               }
                                             ]
