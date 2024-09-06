@@ -1,0 +1,928 @@
+{
+  "pedidos": [
+    {
+      "cama-fulano-branco": {
+        "equipamento": "linha-embalagem",
+        "operacao": "embalagem-cama",
+        "setup": 500,
+        "ciclo": 5,
+        "quantidade": 400,
+        "entrega": "2024-09-10",
+        "componentes": [
+          {
+            "lateral-direita-fulano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "lateral-direita-fulano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-lateral-direita-fulano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "lateral-direita-fulano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-fulano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "lateral-direita-fulano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-fulano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "lateral-direita-fulano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-18",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-lateral-direita-fulano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-lateral-fulano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-fulano": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-lateral-fulano",
+                                                  "setup": 300,
+                                                  "quantidade": 5,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "lateral-esquerda-fulano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "lateral-esquerda-fulano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-lateral-esquerda-fulano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "lateral-esquerda-fulano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-fulano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "lateral-esquerda-fulano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-fulano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "lateral-esquerda-fulano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-18",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-lateral-esquerda-fulano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-lateral-fulano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-fulano": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-lateral-fulano",
+                                                  "setup": 300,
+                                                  "quantidade": 5,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "cabeceira-fulano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca-20",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "cabeceira-fulano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-cabeceira-fulano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "cabeceira-fulano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-cabeceira-fulano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "cabeceira-fulano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-cabeceira-fulano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "cabeceira-fulano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-20",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-cabeceira-fulano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-cabeceira-fulano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-fulano-cabeceira": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-cabeceira-fulano",
+                                                  "setup": 300,
+                                                  "quantidade": 12,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "peseira-fulano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca-20",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "peseira-fulano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-peseira-fulano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "peseira-fulano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-peseira-fulano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "peseira-fulano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-peseira-fulano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "peseira-fulano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-20",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-peseira-fulano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-peseira-fulano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-fulano-cabeceira": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-peseira-fulano",
+                                                  "setup": 300,
+                                                  "quantidade": 7,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cama-beltrano-branco": {
+        "equipamento": "linha-embalagem",
+        "operacao": "embalagem-cama",
+        "setup": 500,
+        "ciclo": 5,
+        "entrega": "2024-09-12",
+        "quantidade": 1000,
+        "componentes": [
+          {
+            "lateral-direita-beltrano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "lateral-direita-beltrano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-lateral-direita-beltrano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "lateral-direita-beltrano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-beltrano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "lateral-direita-beltrano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-beltrano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "lateral-direita-beltrano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-18",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-lateral-direita-beltrano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-lateral-beltrano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-beltrano": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-lateral-beltrano",
+                                                  "setup": 300,
+                                                  "quantidade": 5,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "lateral-esquerda-beltrano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "lateral-esquerda-beltrano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-lateral-esquerda-beltrano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "lateral-esquerda-beltrano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-beltrano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "lateral-esquerda-beltrano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-beltrano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "lateral-esquerda-beltrano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-18",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-lateral-esquerda-beltrano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-lateral-beltrano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-beltrano": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-lateral-beltrano",
+                                                  "setup": 300,
+                                                  "quantidade": 5,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "cabeceira-beltrano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca-20",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "cabeceira-beltrano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-cabeceira-beltrano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "cabeceira-beltrano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-cabeceira-beltrano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "cabeceira-beltrano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-cabeceira-beltrano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "cabeceira-beltrano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-20",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-cabeceira-beltrano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-cabeceira-beltrano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-beltrano-cabeceira": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-cabeceira-beltrano",
+                                                  "setup": 300,
+                                                  "quantidade": 12,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "peseira-beltrano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca-20",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "peseira-beltrano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-peseira-beltrano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "peseira-beltrano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-peseira-beltrano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "peseira-beltrano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-peseira-beltrano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "peseira-beltrano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-20",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-peseira-beltrano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-peseira-beltrano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-beltrano-cabeceira": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-peseira-beltrano",
+                                                  "setup": 300,
+                                                  "quantidade": 7,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "cama-siclano-branco": {
+        "equipamento": "linha-embalagem",
+        "operacao": "embalagem-cama",
+        "setup": 500,
+        "ciclo": 5,
+        "entrega": "2024-09-12",
+        "quantidade": 800,
+        "componentes": [
+          {
+            "lateral-direita-siclano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "lateral-direita-siclano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-lateral-direita-siclano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "lateral-direita-siclano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-siclano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "lateral-direita-siclano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-siclano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "lateral-direita-siclano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-18",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-lateral-direita-siclano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-lateral-siclano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-siclano": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-lateral-siclano",
+                                                  "setup": 300,
+                                                  "quantidade": 5,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "lateral-esquerda-siclano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "lateral-esquerda-siclano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-lateral-esquerda-siclano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "lateral-esquerda-siclano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-siclano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "lateral-esquerda-siclano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-siclano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "lateral-esquerda-siclano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-18",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-lateral-esquerda-siclano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-lateral-siclano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-siclano": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-lateral-siclano",
+                                                  "setup": 300,
+                                                  "quantidade": 5,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "cabeceira-siclano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca-20",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "cabeceira-siclano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-cabeceira-siclano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "cabeceira-siclano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-cabeceira-siclano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "cabeceira-siclano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-cabeceira-siclano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "cabeceira-siclano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-20",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-cabeceira-siclano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-cabeceira-siclano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-siclano-cabeceira": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-cabeceira-siclano",
+                                                  "setup": 300,
+                                                  "quantidade": 12,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "peseira-siclano": {
+              "equipamento": "linha-uv",
+              "operacao": "pintura-branca-20",
+              "setup": 3600,
+              "ciclo": 4,
+              "quantidade": 1,
+              "componentes": [
+                {
+                  "peseira-siclano-furada": {
+                    "equipamento": "furadeira",
+                    "furacao": "furacao-peseira-siclano",
+                    "setup": 1800,
+                    "ciclo": 3,
+                    "quantidade": 1,
+                    "componentes": [
+                      {
+                        "peseira-siclano-borda": {
+                          "equipamento": "perfiladeira",
+                          "operacao": "perfilar-borda-peseira-siclano",
+                          "setup": 1200,
+                          "ciclo": 3,
+                          "quantidade": 1,
+                          "componentes": [
+                            {
+                              "peseira-siclano-topo": {
+                                "equipamento": "perfiladeira",
+                                "operacao": "perfilar-topo-peseira-siclano",
+                                "setup": 1200,
+                                "ciclo": 4,
+                                "quantidade": 1,
+                                "componentes": [
+                                  {
+                                    "peseira-siclano-calibradora": {
+                                      "equipamento": "calibradora",
+                                      "operacao": "calibrar-20",
+                                      "setup": 180,
+                                      "ciclo": 3,
+                                      "quantidade": 1,
+                                      "componentes": [
+                                        {
+                                          "painel-peseira-siclano": {
+                                            "equipamento": "prensa",
+                                            "operacao": "colar-peseira-siclano",
+                                            "setup": 300,
+                                            "quantidade": 1,
+                                            "componentes": [
+                                              {
+                                                "regua-18-siclano-cabeceira": {
+                                                  "equipamento": "scanner",
+                                                  "operacao": "scanner-peseira-siclano",
+                                                  "setup": 300,
+                                                  "quantidade": 7,
+                                                  "componentes": []
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
